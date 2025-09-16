@@ -5,16 +5,28 @@ A music streaming application inspired by Spotify, built with React, Redux, and 
 ### Features
 
 • 🎧 Play, Pause, Next, Previous controls
+
+
 • 📂 Browse songs, albums, and artists
+
+
 • 📜 Custom playlists (Create, Add, Remove tracks)
+
+
 • 📱 Responsive design (Mobile & Desktop)
 
 ### 🛠️ Tech Stack
 
 Frontend:
 • React + TypeScript
+
+
 • Redux (state management)
+
+
 • React Router (navigation)
+
+
 • Tailwind CSS
 
 ### 📂 Project Structure
@@ -48,9 +60,17 @@ cd spotify-clone
 ### 🎯 Roadmap
 
 • Basic UI layout
+
+
 • Redux store setup
+
+
 • Music player controls
+
+
 • Playlist management
+
+
 • Connect to Spotify API
 
 ### 👩🏽‍💻 Author
