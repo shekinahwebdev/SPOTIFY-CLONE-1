@@ -1,19 +1,18 @@
-import { type FC } from "react";
-import { useNavigate } from "react-router-dom";
+import { useContext, type FC } from "react";
+import { PlayerContext } from "../context/PlayerContext";
 
-interface AlbumItemProps {
+interface SongItemsProps {
   image: string;
   name: string;
   desc: string;
   id: number;
 }
 
-const AlbumItem: FC<AlbumItemProps> = ({ image, name, desc, id }) => {
-  const navigate = useNavigate();
-
+const SongItems: FC<SongItemsProps> = ({ image, name, desc, id }) => {
+  const { playWithId } = useContext(PlayerContext);
   return (
     <div
-      onClick={() => navigate(`/album/${id}`)}
+      onClick={() => playWithId(id)}
       className="min-w-[250px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26]"
     >
       <img className="rounded" src={image} alt={name} />
@@ -23,4 +22,4 @@ const AlbumItem: FC<AlbumItemProps> = ({ image, name, desc, id }) => {
   );
 };
 
-export default AlbumItem;
+export default SongItems;
