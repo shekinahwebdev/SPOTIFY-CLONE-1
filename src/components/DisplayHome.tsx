@@ -1,4 +1,4 @@
-import { albumsData, songsData } from "../assets/assets";
+import { albumsData, songsData } from "../../public/assets/assets";
 import AlbumItem from "./AlbumItem";
 import NavBar from "./NavBar";
 import SongItems from "./SongItems";

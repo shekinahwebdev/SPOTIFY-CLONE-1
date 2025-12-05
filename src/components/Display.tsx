@@ -2,7 +2,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import DisplayHome from "./DisplayHome";
 import DisplayAlbum from "./DisplayAlbum";
 import { useEffect, useRef } from "react";
-import { albumsData } from "../assets/assets";
+import { albumsData } from "../../public/assets/assets";
 
 const Display = () => {
   const displayRef = useRef<HTMLDivElement | null>(null);

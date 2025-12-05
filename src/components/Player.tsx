@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { assets } from "../assets/assets";
+import { assets } from "../../public/assets/assets";
 import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {

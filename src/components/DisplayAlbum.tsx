@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import NavBar from "./NavBar";
-import { albumsData, assets, songsData } from "../assets/assets";
+import { albumsData, assets, songsData } from "../../public/assets/assets";
 import { useContext } from "react";
 import { PlayerContext } from "../context/PlayerContext";
 
