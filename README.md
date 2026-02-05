@@ -4,33 +4,28 @@ A music streaming application inspired by Spotify, built with React, Redux, and 
 
 ### Features
 
-• 🎧 Play, Pause, Next, Previous controls
+- Play, Pause, Next, Previous controls
+- Browse songs, albums, and artists
 
+- Custom playlists (Create, Add, Remove tracks)
 
-• 📂 Browse songs, albums, and artists
+- Responsive design (Mobile & Desktop)
 
-
-• 📜 Custom playlists (Create, Add, Remove tracks)
-
-
-• 📱 Responsive design (Mobile & Desktop)
-
-### 🛠️ Tech Stack
+### Tech Stack
 
 Frontend:
-• React + TypeScript
 
+- React + TypeScript
 
-• Redux (state management)
+- Redux (state management)
 
+- React Router (navigation)
 
-• React Router (navigation)
+- Tailwind CSS
 
+### Project Structure
 
-• Tailwind CSS
-
-### 📂 Project Structure
-
+```
 spotify-clone/
 │── public/ # Static assets
 │── src/
@@ -44,37 +39,42 @@ spotify-clone/
 │── tsconfig.json
 │── README.md
 
-### ⚡ Installation
+```
+
+### Installation
 
 1. Clone the repo
 
+```
 git clone https://github.com/shekinahwebdev/SPOTIFY-CLONE-1.git
 cd spotify-clone
+```
 
-2. Install dependencies
+2. ```Install dependencies
    npm install
+   ```
 
-3. Run the app
+1. Run the app
+
+```
    npm run dev
 
-### 🎯 Roadmap
+```
 
-• Basic UI layout
+### Roadmap
 
+- Basic UI layout
 
-• Redux store setup
+- Redux store setup
 
+- Music player controls
 
-• Music player controls
+- Playlist management
 
+- Connect to Spotify API
 
-• Playlist management
-
-
-• Connect to Spotify API
-
-### 👩🏽‍💻 Author
+### Author
 
 Patricia Kanneh
-• 💼 LinkedIn: [https://www.linkedin.com/in/patricia-kanneh-20a200293/]
-• 🐙 GitHub: [https://github.com/shekinahwebdev]
+• LinkedIn: [https://www.linkedin.com/in/patricia-kanneh-20a200293/]
+• GitHub: [https://github.com/shekinahwebdev]

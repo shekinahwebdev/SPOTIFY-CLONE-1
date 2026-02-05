@@ -44,7 +44,7 @@ import img16 from "./img16.jpg";
 import song4 from "./Taya Smith, Hillsong United (Empires) – Even When It Hurts.mp3";
 import song5 from "./Tauren Wells,Crazy About You.mp3";
 import song6 from "./Tauren Wells,Has To Be God.mp3";
-import song7 from "./Worship team.mp3";
+// import song7 from "./Worship team.mp3";
 
 export const assets = {
   bell_icon,
@@ -155,7 +155,7 @@ export const songsData = [
     id: 4,
     name: "Song Five",
     image: img5,
-    file: song7,
+    file: song4,
     desc: "Put a smile on your face with these happy tunes",
     duration: "75:45",
   },
@@ -171,7 +171,7 @@ export const songsData = [
     id: 6,
     name: "Song Seven",
     image: img7,
-    file: song7,
+    file: song5,
     desc: "Put a smile on your face with these happy tunes",
     duration: "75:45",
   },
